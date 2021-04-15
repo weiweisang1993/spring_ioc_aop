@@ -7,6 +7,7 @@ package com.service.proxy;
  */
 public interface TeacherService {
 
+    //定义一个需要实现的方法say()
     public String say();
 
 }
