@@ -1,4 +1,4 @@
-package com.service.proxy;
+package com.service.dynamic_proxy;
 
 /**
  * @author ：炜哥

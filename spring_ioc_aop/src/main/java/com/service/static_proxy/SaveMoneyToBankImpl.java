@@ -2,6 +2,7 @@ package com.service.static_proxy;
 
 /**
  * 存钱实现
+ * 谁存钱，存了多少钱
  *
  * @author
  */
