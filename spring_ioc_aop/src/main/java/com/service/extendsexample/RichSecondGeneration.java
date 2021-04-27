@@ -21,6 +21,12 @@ public class RichSecondGeneration extends RichFather {
         super.makemoney();//顺便帮爸爸管理着赚钱
     }
 
+    public void makemoney(String cannel){
+        System.out.println("这是富二代的赚钱方法");
+        System.out.println("在" + cannel + "渠道上赚钱");
+        this.money += 50000;//每个月赚的不多
+    }
+
     public void consume(int consume_money) {
 //        System.out.println("我在夜场消费，花了" + consume_money + "元");
 //        money -= consume_money;

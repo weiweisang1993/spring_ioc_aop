@@ -16,6 +16,9 @@ public class ExtendsTest {
         richSecondGeneration.makemoney();
         System.out.println("我的钱还剩" + richSecondGeneration.money);
         System.out.println("爸爸的钱还剩" + richSecondGeneration.getMoney());
+
+        //花式赚钱
+        richSecondGeneration.makemoney("拼多多");
     }
 
 }
