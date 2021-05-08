@@ -7,13 +7,16 @@ import java.lang.annotation.Target;
 
 /**
  * @author ：炜哥
- * @date ：创建于 2021/4/29 16:24
+ * @date ：创建于 2021/4/29 8:22 下午
  * @description：
  * @modified By：
  * @version: 1.0
  */
-@Target(ElementType.METHOD)
-@Retention(RetentionPolicy.CLASS)
-public @interface RunBefore {
-    String run_name() default "这是默认的值";
+@Target(ElementType.PARAMETER)
+@Retention(RetentionPolicy.RUNTIME)
+public @interface StringRange {
+
+    int minlength();
+
+    int maxlength();
 }

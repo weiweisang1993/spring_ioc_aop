@@ -21,5 +21,6 @@ public class Client {
 
         AocExampleService as = (AocExampleService) BeanFactory.getBean("aocservice");
         as.saveAccount();
+
     }
 }
